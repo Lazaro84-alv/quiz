@@ -4,7 +4,8 @@ import { useRouter } from "next/router"
 import QuestaoModel from "../model/questao"
 import Questionario from "../components/Questionario"
 
-const BASE_URL = 'http://localhost:3000/api'
+//const BASE_URL = 'http://localhost:3000/api'
+const BASE_URL = 'https://quiz-eight-gold.vercel.app/api' 
 
 export default function Home() {
   const router = useRouter()
